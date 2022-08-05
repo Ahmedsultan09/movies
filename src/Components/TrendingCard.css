@@ -1,0 +1,91 @@
+.trending-card {
+  position: relative;
+}
+
+.t-image {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  color: rgb(255, 123, 0) !important;
+}
+.swiper-button-next {
+  color: rgb(255, 123, 0) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(255, 123, 0) !important;
+}
+.swiper-pagination-bullet {
+  position: relative;
+  background-color: rgb(255, 123, 0) !important;
+}
+
+.movie-name {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.details {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+.play-btn {
+  position: absolute;
+  background-color: rgb(255, 123, 0);
+  width: 6.5rem;
+  height: 2.5rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.play-btn i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.play-btn {
+  display: none;
+  /* filter: brightness(100%) !important; */
+}
+
+.recommended-card:hover .t-image {
+  filter: brightness(50%);
+}
+.recommended-card:hover .play-btn {
+  display: flex;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  -webkit-box-shadow: -7px 9px 56px -11px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -7px 9px 56px -11px rgba(0, 0, 0, 1);
+  box-shadow: -7px 9px 56px -11px rgba(0, 0, 0, 1);
+}
+.bookmark-icon:hover {
+  transform: scale(1.5);
+}
+
+.active-bookmark {
+  color: rgb(255, 123, 0);
+}

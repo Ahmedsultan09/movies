@@ -1,0 +1,16 @@
+.nav {
+  background-color: #161d2f;
+}
+
+.logo {
+  color: rgb(255, 123, 0);
+}
+
+.avatar:hover {
+  outline: 2px solid rgb(255, 123, 0);
+}
+
+.active {
+  color: rgb(255, 123, 0);
+  transition: 0.3s;
+}

@@ -1,0 +1,28 @@
+.searchBar:focus {
+  outline: none;
+  border: none;
+  background-color: rgb(44, 53, 77);
+}
+
+.searchBar {
+  padding-left: 20px;
+}
+
+.searchBar:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.searchBar:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+.searchBar:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.searchBar:focus:-moz-placeholder {
+  opacity: 0;
+}
+.search {
+  margin-bottom: 20px;
+}
